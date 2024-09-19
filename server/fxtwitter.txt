@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+
+   █████ ▐█▌       ███████████                              ███
+ ███      █            ███                                  ███
+███                    ███                                  ███
+███      ███  ███  ███ ███  ███  ███  ███  ██████   ██████  ██████
+███████▌ ███   ▐█▌▐█▌  ███  ███  ███  ███ ▐█▌  ▐█▌ ▐█▌  ▐█▌ ███
+███      ███    ▐██▌   ███  ███  ███  ███ ████████ ████████ ███
+███      ███   ▐█▌▐█▌  ███  ▐██▌ ███ ▐██▌ ▐█▌      ▐█▌      ▐██▌
+███      ███  ███  ███ ███   ▐█████████▌    ▐████    ▐████    ▐████
+███
+███   A better way to embed Tweets on Discord, Telegram, and more.
+███   Worker build fixtweet-main-2a7f3f8-2024-08-06T00:17:28
+
+-->
+<head>
+<link rel="canonical" href="https://twitter.com/PunchingCat/status/1832994060199678137"/>
+<meta property="og:url" content="https://twitter.com/PunchingCat/status/1832994060199678137"/>
+<meta property="twitter:site" content="@PunchingCat"/><meta property="twitter:creator" content="@PunchingCat"/>
+<meta property="theme-color" content="#00a8fc"/><meta property="twitter:title" content="Punch Cat (@PunchingCat)"/>
+<meta http-equiv="refresh" content="0;url=https://twitter.com/PunchingCat/status/1832994060199678137"/>
+<meta property="twitter:image" content="https://pbs.twimg.com/media/GXAaYbDaUAAB5Q1.jpg"/>
+<meta property="og:image" content="https://pbs.twimg.com/media/GXAaYbDaUAAB5Q1.jpg"/>
+<meta property="twitter:image:width" content="900"/>
+<meta property="twitter:image:height" content="1200"/>
+<meta property="og:image:width" content="900"/>
+<meta property="og:image:height" content="1200"/>
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="og:title" content="Punch Cat (@PunchingCat)"/>
+<meta property="og:description" content="mmm sun"/>
+<meta property="og:site_name" content="FxTwitter / FixupX"/>
+<link rel="alternate" href="https://fxtwitter.com/owoembed?text=%F0%9F%92%AC%20310%20%20%20%F0%9F%94%81%2021.8K%20%20%20%E2%9D%A4%EF%B8%8F%20187.0K%20%20%20%F0%9F%91%81%EF%B8%8F%203.11M&status=1832994060199678137&author=PunchingCat" type="application/json+oembed" title="Punch Cat">
+</head>
+<body>
+</body>
+</html>

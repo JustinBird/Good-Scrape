@@ -1,0 +1,9 @@
+{
+    "author_name":"{{stars}} ({{average}}) - {{ratings}} ratings, {{reviews}} reviews",
+    "author_url":"{{link}}",
+    "provider_name":"FxGoodReads",
+    "provider_url":"https://github.com/JustinBird/Good-Scrape",
+    "title":"GoodReads",
+    "type":"link",
+    "version":"1.0"
+}

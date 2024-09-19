@@ -85,7 +85,7 @@ class GRBook:
         
         return authorLink.get('href')
     
-    def get_rating(self) -> str:
+    def get_average_rating(self) -> str:
         rating = self.soup.find("div", class_="RatingStatistics__rating")
         if rating is None:
             return None
@@ -133,21 +133,35 @@ class GRBook:
         
         return [ genre.string for genre in genres if genre.string != '...more']
 
+    def get_num_ratings(self) -> str:
+        numRatings = self.soup.find("span", attrs={"data-testid": "ratingsCount"})
+        if numRatings is None:
+            return None
+
+        return next(numRatings.stripped_strings)
+
+    def get_num_reviews(self) -> str:
+        numReviews = self.soup.find("span", attrs={"data-testid": "reviewsCount"})
+        if numReviews is None:
+            return None
+
+        return next(numReviews.stripped_strings)
+
 if __name__ == "__main__":
     #output = request_goodreads("justinbird")
-    f = open('justinbird.html', 'r')
-    profile = GRProfile('justinbird', input=f.read())
-    print(profile.get_pfp_url())
-    print(profile.get_profile_name())
-    print(profile.get_num_ratings())
-    print(profile.get_average_rating())
+    #f = open('justinbird.html', 'r')
+    #profile = GRProfile('justinbird', input=f.read())
+    #print(profile.get_pfp_url())
+    #print(profile.get_profile_name())
+    #print(profile.get_num_ratings())
+    #print(profile.get_average_rating())
 
-    f = open('sara.html', 'r')
-    profile = GRProfile('sara', input=f.read())
-    print(profile.get_pfp_url())
-    print(profile.get_profile_name())
-    print(profile.get_num_ratings())
-    print(profile.get_average_rating())
+    #f = open('sara.html', 'r')
+    #profile = GRProfile('sara', input=f.read())
+    #print(profile.get_pfp_url())
+    #print(profile.get_profile_name())
+    #print(profile.get_num_ratings())
+    #print(profile.get_average_rating())
 
     #f = open('secrethistory.html', 'r')
     #book = GRBook(None, f.read())
@@ -156,7 +170,9 @@ if __name__ == "__main__":
     print(book.get_title())
     print(book.get_author())
     print(book.get_author_link())
-    print(book.get_rating())
+    print(book.get_average_rating())
+    print(book.get_num_ratings())
+    print(book.get_num_reviews())
     print(book.get_pages_format())
     print(book.get_publication_info())
     print(book.get_description())

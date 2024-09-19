@@ -29,7 +29,7 @@
     <meta property="og:title" content="{{ title }} - {{ author }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:site_name" content="FxGoodReads" />
-    <link rel="alternate" href="https://justinbird.xyz/book.json" type="application/json+oembed" title="Tips & Tricks">
+    <link rel="alternate" href="https://fxgoodreads.com/oembed?stars={{ stars }}&average={{ average }}&ratings={{ ratings }}&reviews={{ reviews }}" type="application/json+oembed" title="{{ author }}">
   </head>
   <body></body>
 </html>
